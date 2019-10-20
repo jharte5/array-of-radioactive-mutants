@@ -1,9 +1,11 @@
-function changeLast() {
+function changeLast(arr,num) {
+  arr[arr.length - 1] = num;
 
 }
 
-function addMeToEnd() {
 
+function addMeToEnd(arr) {
+  arr[arr.push('Colin')]
 }
 
 function addMeToStart() {
