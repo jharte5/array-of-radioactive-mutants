@@ -18,8 +18,16 @@ let i, num = a.length;
     }
 }
 
-function oddOrEven() {
-
+function oddOrEven(arr) {
+  let i = 0
+  while (i <arr.length) {
+    if (arr[i] % 2 === 1) {
+      arr[i] = 'odd';
+    } else {
+      arr[i] = 'even';
+    }
+    i++
+  }
 }
 
 function changeNextThreeToValue() {
