@@ -30,8 +30,10 @@ function oddOrEven(arr) {
   }
 }
 
-function changeNextThreeToValue() {
-
+function changeNextThreeToValue(start, arr, value) {
+  arr[start] = value;
+  arr[start + 1] = value;
+  arr[start + 2] = value;
 }
 
 module.exports = {
